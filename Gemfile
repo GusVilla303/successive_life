@@ -15,6 +15,8 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'unicorn'
 gem 'figaro'
 gem 'faraday'
+gem 'fitgem'
+gem 'omniauth-fitbit'
 
 
 group :development, :test do
