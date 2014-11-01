@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141101180302) do
+ActiveRecord::Schema.define(version: 20141101211708) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -20,7 +20,7 @@ ActiveRecord::Schema.define(version: 20141101180302) do
     t.string   "username"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "commit_goal"
+    t.integer  "commit_goal", default: 1
     t.integer  "user_id"
   end
 
@@ -31,6 +31,8 @@ ActiveRecord::Schema.define(version: 20141101180302) do
     t.string "provider"
     t.string "phone_number"
     t.string "twitter_pic"
+    t.string "oauth_token"
+    t.string "oauth_secret"
   end
 
 end
