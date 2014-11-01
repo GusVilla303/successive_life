@@ -17,6 +17,8 @@ gem 'figaro'
 gem 'faraday'
 gem 'fitgem'
 gem 'omniauth-fitbit'
+gem 'omniauth-twitter'
+gem 'omniauth'
 
 
 group :development, :test do
