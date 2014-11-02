@@ -34,5 +34,4 @@ ActiveRecord::Schema.define(version: 20141101211708) do
     t.string "oauth_token"
     t.string "oauth_secret"
   end
-
 end
