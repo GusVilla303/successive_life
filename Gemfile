@@ -20,6 +20,7 @@ gem 'omniauth'
 gem 'codeclimate-test-reporter', group: :test, require: nil
 gem 'foundation-rails'
 gem 'whenever', require: false
+gem 'twilio-ruby'
 
 
 group :development, :test do
